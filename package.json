@@ -3,16 +3,17 @@
   "version": "1.0.50",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "bun run --watch src/index.tsx"
+    "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
-    "@elysiajs/html": "^0.8.0",
     "@elysiajs/static": "^0.8.1",
     "@inertiajs/react": "^1.0.14",
-    "@libsql/client": "^0.4.3",
     "drizzle-orm": "^0.29.3",
     "elysia": "latest",
-    "elysia-vite": "^0.2.0"
+    "elysia-vite": "^0.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "vite-plugin-ruby": "^5.0.0"
   },
   "devDependencies": {
     "bun-types": "latest",

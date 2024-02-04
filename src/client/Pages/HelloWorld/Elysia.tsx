@@ -1,5 +1,6 @@
-import React from 'react'
+import React from "react";
 
+console.log("Hello from Elysia.tsx");
 const Elysia = (props: { name: string }) => {
   return (
     <div>
@@ -8,4 +9,4 @@ const Elysia = (props: { name: string }) => {
   )
 }
 
-export default Elysia
+export default Elysia;
