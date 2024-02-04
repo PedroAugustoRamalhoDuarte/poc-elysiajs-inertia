@@ -11,19 +11,21 @@ const inertiaPlugin = ({
       }
     )
 
+
+// Only works for vite development
 export const renderInertia = (component, props, url) => `
     <html lang="en">
     <head>
       <title>Hello World</title>
 
-      <script src="/public/assets/application-edlTypEb.js " type="module" crossOrigin="anonymous" defer></script>
+      <script src="http://localhost:5173/src/client/entrypoints/application.jsx" type="module" crossOrigin="anonymous" defer></script>
     </head>
     <body>
     <div id="app" data-page=${JSON.stringify({
   component,
   props,
   url,
-  version: "1.1.0",
+  version: "1.0.0",
 })}>
 
     </div>
