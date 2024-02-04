@@ -3,13 +3,21 @@
   "version": "1.0.50",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "bun run --watch src/index.ts"
+    "dev": "bun run --watch src/index.tsx"
   },
   "dependencies": {
-    "elysia": "latest"
+    "@elysiajs/html": "^0.8.0",
+    "@elysiajs/static": "^0.8.1",
+    "@inertiajs/react": "^1.0.14",
+    "@libsql/client": "^0.4.3",
+    "drizzle-orm": "^0.29.3",
+    "elysia": "latest",
+    "elysia-vite": "^0.2.0"
   },
   "devDependencies": {
-    "bun-types": "latest"
+    "bun-types": "latest",
+    "drizzle-kit": "^0.20.14",
+    "vite": "^5.0.12"
   },
   "module": "src/index.js"
 }
